@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "portifolio-flask"
+version = "0.1.0"
+description = "Portfólio profissional"
+authors = ["LucasPires50 <luc_50@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
