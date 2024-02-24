@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../static/style.css">
-    <link rel="icon" type="image/png" href="../static/img/dev.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="icon" type="image/png" href="../static/img/dev.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Título da página</title>
   </head>
   <body>
-
     <!-- icon menu -->
     <i class="bi bi-list menu-mobile"></i>
 
     <!-- barra lateral -->
     <aside id="header">
       <section class="profile">
-        <img src="../static/img/perfil.jpeg" alt="Foto do Lucas">
+        <img src="../static/img/perfil.jpeg" alt="Foto do Lucas" />
         <h1>Lucas Albuquerque Pires</h1>
         <div class="social-links mt-4 text-center">
-          <a target="_blank" href="https://www.linkedin.com/in/lucas-albuquerque-pires-87b403a5/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/lucas-albuquerque-pires-87b403a5/"
+          >
             <i class="bi bi-linkedin"></i>
           </a>
           <a target="_blank" href="https://github.com/LucasPires50">
@@ -33,12 +38,12 @@
       <nav id="navbar" class="nav-menu">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href="#inicio">
               <i class="bi bi-house-fill"></i> Inicio
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#sobre">
               <i class="bi bi-person-circle"></i> Sobre
             </a>
           </li>
@@ -68,20 +73,129 @@
 
     <main id="main">
       <section id="inicio" class="row m-0 p-0">
-        <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+        <div
+          class="col-md-5 d-flex justify-content-center align-items-center flex-column"
+        >
           <h2 class="text-white text-shadow">Lucas Albuquerque Pires</h2>
-          <span id="subtitle" class="text-white text-shadow">Desenvolvedor WEB</span>
+          <span id="subtitle" class="text-white text-shadow"
+            >Desenvolvedor WEB</span
+          >
         </div>
 
         <div class="col-md-7 d-flex justify-content-end align-items-end">
           <div id="arraste" class="d-flex align-items-center">
-              <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-              <a href="">Arraste para mais</a>
+            <i
+              class="bi bi-arrow-down text-white pe-2 fs-2"
+              aria-hidden="true"
+            ></i>
+            <a href="#sobre">Arraste para mais</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-5" id="sobre">
+        <div class="row w-100">
+          <div class="col-md-12">
+            <h2 class="pt-3">Sobre</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              ornare diam nibh, id fermentum libero varius pretium. Fusce quis
+              lacus aliquam, sollicitudin est eget, semper diam. Cras lorem ex,
+              consequat sit amet ipsum efficitur, volutpat congue tortor. Mauris
+              sit amet elit volutpat mauris rhoncus porta. Class aptent taciti
+              sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Morbi ultricies, justo eget mollis tincidunt, libero
+              sapien dictum urna, eu dapibus felis nibh quis arcu. Vestibulum
+              eget enim orci. Fusce tristique malesuada turpis. Ut ut lacinia
+              augue, id volutpat mauris. Etiam vehicula elementum mauris quis
+              ullamcorper. Nunc rhoncus eros non eros elementum, nec lobortis
+              nisi rhoncus. Vestibulum sed lectus at nunc fringilla eleifend nec
+              in velit. Duis aliquet, metus eu venenatis volutpat, sapien sapien
+              iaculis purus, vel aliquet nulla lorem at massa. Nulla a lectus
+              sollicitudin, tempus neque quis, elementum nisl. Sed tristique
+              semper eros id sollicitudin. Nam id diam maximus, sodales mauris
+              eget, ultricies libero.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <img
+              class="img-fluid shadow"
+              src="../static/img/perfil.jpeg"
+              alt="Foto do Lucas"
+            />
+          </div>
+          <div class="col-md-8">
+            <h3>Desenvolvedor Back-end</h3>
+            <p>
+              Desenvolvedor Back-End com mais de 2 anos de experiência,
+              trabalhando principalmente python e django para o back-end,
+              utilizando bancos de dados SQL e noSQL.
+            </p>
+            <div class="row mt-3 mb-3">
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush fs-5">
+                  <li class="list-group-item">
+                    Niver: <span class="fw-lighter">04 de Agosto de 1994</span>
+                  </li>
+                  <li class="list-group-item">
+                    Idade: <span class="fw-lighter">29 anos</span>
+                  </li>
+                  <li class="list-group-item">
+                    Cidade: <span class="fw-lighter">Brusque</span>
+                  </li>
+                  <li class="list-group-item">
+                    Estado: <span class="fw-lighter">Santa Catarina</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-group list-group-flush fs-5">
+                  <li class="list-group-item">
+                    Hobby: <span class="fw-lighter">Cozinhar</span>
+                  </li>
+                  <li class="list-group-item">
+                    Site:
+                    <span class="fw-lighter">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="fw-lighter text-decoration-none link-dark"
+                        >links.thiscode</a
+                      >
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    Niver:
+                    <span class="fw-lighter">
+                      Trabalho:
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="fw-lighter text-decoration-none link-dark"
+                        >DevPro</a
+                      >
+                    </span>
+                  </li>
+                  <li class="list-group-item">
+                    Experiência: <span class="fw-lighter">+3 anos</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Nam interdum nisl vitae ex molestie, a rutrum orci tincidunt.
+              Vivamus imperdiet magna eget tempor rhoncus. Quisque ac neque
+              nunc. Mauris in elit eu orci faucibus pretium vel eu eros. Nunc
+              vel diam vitae velit tincidunt lacinia. Duis vel mauris dui. Etiam
+              eleifend aliquet nisl at consequat.
+            </p>
           </div>
         </div>
       </section>
     </main>
-    
+
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
   </body>
